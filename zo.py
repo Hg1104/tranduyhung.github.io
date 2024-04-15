@@ -16,7 +16,7 @@ score_rating = movies_data['score'].unique().tolist()
 genre_list = movies_data['genre'].unique().tolist()
 choose_column = movies_data.loc[:,["name", "genre", "year"]] 
 
-st.set_page_config(page_title = "Streamlit",layout = 'wide')
+st.set_page_config(page_title = "Streamlittle",layout = 'wide')
 st.title ("Interactive Dashboard ")
 st.subheader("Interact with this dashboard using the widgets on the sidebar")
 
